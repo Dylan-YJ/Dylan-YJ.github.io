@@ -338,7 +338,7 @@
                     document.getElementById("s1").style.top = "0px";
                     break;
                 case 1:
-                    document.getElementById("s1").style.top = "-75px";
+                    document.getElementById("s1").style.top = "-55px";
                     break;
                 case 2:
                     document.getElementById("s1").style.top = "-150px";
@@ -371,7 +371,7 @@
                     document.getElementById("s2").style.top = "0px";
                     break;
                 case 1:
-                    document.getElementById("s2").style.top = "-75px";
+                    document.getElementById("s2").style.top = "-55px";
                     break;
                 case 2:
                     document.getElementById("s2").style.top = "-150px";
@@ -406,7 +406,7 @@
                 var nowdate = new Date();
                 var year = nowdate.getFullYear(),
                     month = nowdate.getMonth() + 1,
-                    date = nowdate.getDate()<!-- -1 -->,
+                    date = nowdate.getDate() -1,
                     day = nowdate.getDay();
                 return month + "月" + date + "日";
             }
