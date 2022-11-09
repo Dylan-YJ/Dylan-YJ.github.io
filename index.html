@@ -68,7 +68,16 @@
 								</svg>
 							</div>
 						</div>
-						<div class="area">中鼎花园</div>
+						<div class="area" id="dizhi">中鼎花园</div>
+						<script>
+							var x=new Date();
+							var time=x.getHours();
+							if (time<=18 && time>=8) {
+								document.getElementById("dizhi").innerHTML="硅谷广场A座写字楼"
+							} else{
+								document.getElementById("dizhi").innerHTML="中鼎花园"
+							}
+						</script>
 						<div class="querylist-card">
 							<div class="list">
 								<div class="list-date" id="showdate">
