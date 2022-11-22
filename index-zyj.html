@@ -71,11 +71,11 @@
 						<div class="area" id="dizhi">白庙小区西南门</div>
 						<script>
 							var x = new Date();
-							var time = x.getHours();
+							var hour = x.getHours();
 							if (x.getDay() == 0) {
 								document.getElementById("dizhi").innerHTML = "白庙小区西南门"
 							} else {
-								if (time <= 17 && time >= 9) {
+								if (hour <= 17 && hour >= 9) {
 									document.getElementById("dizhi").innerHTML = "硅谷广场A座写字楼"
 								} else {
 									document.getElementById("dizhi").innerHTML = "白庙小区西南门"
