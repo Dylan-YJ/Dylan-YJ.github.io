@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="" data-dpr="1" style="font-size: 37.52px;">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>河南省疫情防控场所码</title>
+		<link rel="stylesheet" href="./index_files/chunk-vendors-1.0.6.css">
+		<script type="text/javascript" src="./index_files/chunk-vendors-1.0.6.js"></script>
+		<link rel="stylesheet" href="./index_files/chunk-common-1.0.6.css">
+		<script type="text/javascript" src="./index_files/chunk-common-1.0.6.js"></script>
+		<script type="text/javascript" src="./index_files/index-1.0.6.js"></script>
+		<script type="text/javascript" src="./index_files/crypt-1.0.6.js"></script>
+		<style type="text/css">
+			#message{
+				display:none;
+			}
+			.trave-wrapper{
+				margin-bottom: 13%;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="app" class="app-container">
+			<!---->
+			<div class="flex-box">
+				<div class="flex-header">
+					<div class="container">
+						<div class="mainBox">
+							<div class="mainBox-top green"></div>
+							<div class="mainBox-bottom green"></div>
+						</div>
+						<div class="cartoon">
+							<div style="width: 100%; height: 100%; overflow: hidden; margin: 0px auto;">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 528" width="750" height="528"
+									preserveAspectRatio="xMidYMid meet"
+									style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
+									<defs>
+										<clippath id="__lottie_element_2">
+											<rect width="750" height="528" x="0" y="0"></rect>
+										</clippath>
+									</defs>
+									<g clip-path="url(#__lottie_element_2)">
+										<g id="wave1" transform="matrix(1,0,0,1.190000057220459,536.21240234375,123)"
+											opacity="1" style="display: block;">
+											<g opacity="1" transform="matrix(1,0,0,1,0,0)">
+												<path fill="rgb(244,244,244)" fill-opacity="0.15"
+													d="M-1075.875,112 C-1185.8819580078125,110.45099639892578 -1491.875,252 -1491.875,252 C-1491.875,252 -1305.875,362 -1305.875,362 C-1305.875,362 -359.875,374 -359.875,374 C-359.875,374 -119.875,264 -119.875,264 C-119.875,264 -119.875,116 -279.875,118 C-407.864990234375,119.5999984741211 -530.875,195 -699.875,198 C-863.8610229492188,200.91099548339844 -933.875,114 -1075.875,112z M-280.875,112 C-390.8819885253906,110.45099639892578 -696.875,252 -696.875,252 C-696.875,252 -510.875,362 -510.875,362 C-510.875,362 435.125,374 435.125,374 C435.125,374 675.125,264 675.125,264 C675.125,264 675.125,116 515.125,118 C387.135009765625,119.5999984741211 264.125,195 95.125,198 C-68.86100006103516,200.91099548339844 -138.875,114 -280.875,112z">
+												</path>
+												<!-- 左侧云图动画 -->
+												<animateTransform attributeName="transform" type="translate"
+													values="0;400;800" begin="0s" dur="3s" repeatCount="indefinite" />
+											</g>
+										</g>
+										<g id="wave2" transform="matrix(1,0,0,1.190000057220459,1045.917236328125,125)"
+											opacity="1" style="display: block;">
+											<g opacity="1" transform="matrix(1,0,0,1,0,0)">
+												<g opacity="1" transform="matrix(1,0,0,1,0,0)">
+													<path fill="rgb(244,244,244)" fill-opacity="0.12"
+														d="M-1050.43798828125,124 C-1160.4449462890625,122.45099639892578 -1364.43798828125,228 -1364.43798828125,228 C-1364.43798828125,228 -1194.43798828125,354 -1194.43798828125,354 C-1194.43798828125,354 -136.43800354003906,330 -136.43800354003906,330 C-136.43800354003906,330 37.0620002746582,273 37.0620002746582,273 C37.0620002746582,273 -212.4250030517578,124 -372.43701171875,124 C-482,124 -558,195 -716.43798828125,200 C-826.0189819335938,203.45799255371094 -908.43798828125,126 -1050.43798828125,124z M-1729.43798828125,124 C-1839.4449462890625,122.45099639892578 -2043.43798828125,228 -2043.43798828125,228 C-2043.43798828125,228 -1873.43798828125,354 -1873.43798828125,354 C-1873.43798828125,354 -815.43798828125,330 -815.43798828125,330 C-815.43798828125,330 -641.93798828125,273 -641.93798828125,273 C-641.93798828125,273 -891.426025390625,124 -1051.43798828125,124 C-1161,124 -1237,195 -1395.43798828125,200 C-1505.01904296875,203.45799255371094 -1587.43798828125,126 -1729.43798828125,124z">
+													</path>
+													<!-- 右侧云图动画 -->
+													<animateTransform attributeName="transform" type="translate"
+														values="0;400;680" begin="0s" dur="3s"
+														repeatCount="indefinite" />
+												</g>
+											</g>
+										</g>
+									</g>
+								</svg>
+							</div>
+						</div>
+						<div class="area" id="dizhi">中鼎花园</div>
+						<script>
+							var x=new Date();
+							var hour=x.getHours();
+							if (hour<=18 && hour>=8) {
+								document.getElementById("dizhi").innerHTML="硅谷广场A座写字楼"
+							} else{
+								document.getElementById("dizhi").innerHTML="中鼎花园"
+							}
+						</script>
+						<div class="querylist-card">
+							<div class="list">
+								<div class="list-date" id="showdate">
+									<script>
+										var showdate = function() {
+											var nowdate = new Date();
+											var year = nowdate.getFullYear(),
+												month = nowdate.getMonth() + 1,
+												date = nowdate.getDate(),
+												day = nowdate.getDay();
+											return year + "年" + month + "月" + date + "日";
+										}
+										var div = document.getElementById("showdate");
+										div.innerHTML = showdate();
+									</script>
+								</div>
+								<script>
+									//0/-55/-112/-167/-222/-277/-332/-387/-442/-500
+									window.onload = function() {
+										var nowdate = new Date();
+										var h = nowdate.getHours(),
+											m = nowdate.getMinutes(),
+											s = nowdate.getSeconds();
+										var h1, h2, m1, m2, s1, s2;
+										h1 = parseInt(h / 10);
+										h2 = h % 10;
+										m1 = parseInt(m / 10);
+										m2 = m % 10;
+										s1 = parseInt(s / 10);
+										s2 = s % 10;
+										//h1
+										switch (h1) {
+											case 0:
+												document.getElementById("h1").style.top = "0px";
+												break;
+											case 1:
+												document.getElementById("h1").style.top = "-61px";
+												break;
+											case 2:
+												document.getElementById("h1").style.top = "-122px";
+												break;
+										}
+										//h2
+										switch (h2) {
+											case 0:
+												document.getElementById("h2").style.top = "0px";
+												break;
+											case 1:
+												document.getElementById("h2").style.top = "-61px";
+												break;
+											case 2:
+												document.getElementById("h2").style.top = "-122px";
+												break;
+											case 3:
+												document.getElementById("h2").style.top = "-182px";
+												break;
+											case 4:
+												document.getElementById("h2").style.top = "-243px";
+												break;
+											case 5:
+												document.getElementById("h2").style.top = "-303px";
+												break;
+											case 6:
+												document.getElementById("h2").style.top = "-363px";
+												break;
+											case 7:
+												document.getElementById("h2").style.top = "-425px";
+												break;
+											case 8:
+												document.getElementById("h2").style.top = "-485px";
+												break;
+											case 9:
+												document.getElementById("h2").style.top = "-547px";
+												break;
+										}
+										//m1
+										switch (m1) {
+											case 0:
+												document.getElementById("m1").style.top = "0px";
+												break;
+											case 1:
+												document.getElementById("m1").style.top = "-61px";
+												break;
+											case 2:
+												document.getElementById("m1").style.top = "-122px";
+												break;
+											case 3:
+												document.getElementById("m1").style.top = "-182px";
+												break;
+											case 4:
+												document.getElementById("m1").style.top = "-243px";
+												break;
+											case 5:
+												document.getElementById("m1").style.top = "-303px";
+												break;
+											case 6:
+												document.getElementById("m1").style.top = "-363px";
+												break;
+											case 7:
+												document.getElementById("m1").style.top = "-425px";
+												break;
+											case 8:
+												document.getElementById("m1").style.top = "-485px";
+												break;
+											case 9:
+												document.getElementById("m1").style.top = "-547px";
+												break;
+										}
+										//m2
+										switch (m2) {
+											case 0:
+												document.getElementById("m2").style.top = "0px";
+												break;
+											case 1:
+												document.getElementById("m2").style.top = "-61px";
+												break;
+											case 2:
+												document.getElementById("m2").style.top = "-122px";
+												break;
+											case 3:
+												document.getElementById("m2").style.top = "-182px";
+												break;
+											case 4:
+												document.getElementById("m2").style.top = "-243px";
+												break;
+											case 5:
+												document.getElementById("m2").style.top = "-303px";
+												break;
+											case 6:
+												document.getElementById("m2").style.top = "-363px";
+												break;
+											case 7:
+												document.getElementById("m2").style.top = "-425px";
+												break;
+											case 8:
+												document.getElementById("m2").style.top = "-483px";
+												break;
+											case 9:
+												document.getElementById("m2").style.top = "-547px";
+												break;
+										}
+										//s1
+										switch (s1) {
+											case 0:
+												document.getElementById("s1").style.top = "0px";
+												break;
+											case 1:
+												document.getElementById("s1").style.top = "-61px";
+												break;
+											case 2:
+												document.getElementById("s1").style.top = "-122px";
+												break;
+											case 3:
+												document.getElementById("s1").style.top = "-182px";
+												break;
+											case 4:
+												document.getElementById("s1").style.top = "-243px";
+												break;
+											case 5:
+												document.getElementById("s1").style.top = "-303px";
+												break;
+											case 6:
+												document.getElementById("s1").style.top = "-363px";
+												break;
+											case 7:
+												document.getElementById("s1").style.top = "-425px";
+												break;
+											case 8:
+												document.getElementById("s1").style.top = "-485px";
+												break;
+											case 9:
+												document.getElementById("s1").style.top = "-547px";
+												break;
+										}
+										//s2
+										switch (s2) {
+											case 0:
+												document.getElementById("s2").style.top = "0px";
+												break;
+											case 1:
+												document.getElementById("s2").style.top = "-61px";
+												break;
+											case 2:
+												document.getElementById("s2").style.top = "-122px";
+												break;
+											case 3:
+												document.getElementById("s2").style.top = "-182px";
+												break;
+											case 4:
+												document.getElementById("s2").style.top = "-243px";
+												break;
+											case 5:
+												document.getElementById("s2").style.top = "-303px";
+												break;
+											case 6:
+												document.getElementById("s2").style.top = "-363px";
+												break;
+											case 7:
+												document.getElementById("s2").style.top = "-425px";
+												break;
+											case 8:
+												document.getElementById("s2").style.top = "-485px";
+												break;
+											case 9:
+												document.getElementById("s2").style.top = "-547px";
+												break;
+										}
+
+										setInterval(function() {
+											var nowdate = new Date();
+											var h = nowdate.getHours(),
+												m = nowdate.getMinutes(),
+												s = nowdate.getSeconds();
+											var h1, h2, m1, m2, s1, s2;
+											h1 = parseInt(h / 10);
+											h2 = h % 10;
+											m1 = parseInt(m / 10);
+											m2 = m % 10;
+											s1 = parseInt(s / 10);
+											s2 = s % 10;
+											//h1
+											switch (h1) {
+												case 0:
+													document.getElementById("h1").style.top = "0px";
+													break;
+												case 1:
+													document.getElementById("h1").style.top = "-61px";
+													break;
+												case 2:
+													document.getElementById("h1").style.top = "-122px";
+													break;
+
+											}
+											//h2
+											switch (h2) {
+												case 0:
+													document.getElementById("h2").style.top = "0px";
+													break;
+												case 1:
+													document.getElementById("h2").style.top = "-61px";
+													break;
+												case 2:
+													document.getElementById("h2").style.top = "-122px";
+													break;
+												case 3:
+													document.getElementById("h2").style.top = "-182px";
+													break;
+												case 4:
+													document.getElementById("h2").style.top = "-243px";
+													break;
+												case 5:
+													document.getElementById("h2").style.top = "-303px";
+													break;
+												case 6:
+													document.getElementById("h2").style.top = "-363px";
+													break;
+												case 7:
+													document.getElementById("h2").style.top = "-425px";
+													break;
+												case 8:
+													document.getElementById("h2").style.top = "-485px";
+													break;
+												case 9:
+													document.getElementById("h2").style.top = "-547px";
+													break;
+											}
+											//m1
+											switch (m1) {
+												case 0:
+													document.getElementById("m1").style.top = "0px";
+													break;
+												case 1:
+													document.getElementById("m1").style.top = "-61px";
+													break;
+												case 2:
+													document.getElementById("m1").style.top = "-122px";
+													break;
+												case 3:
+													document.getElementById("m1").style.top = "-182px";
+													break;
+												case 4:
+													document.getElementById("m1").style.top = "-243px";
+													break;
+												case 5:
+													document.getElementById("m1").style.top = "-303px";
+													break;
+												case 6:
+													document.getElementById("m1").style.top = "-363px";
+													break;
+												case 7:
+													document.getElementById("m1").style.top = "-425px";
+													break;
+												case 8:
+													document.getElementById("m1").style.top = "-485px";
+													break;
+												case 9:
+													document.getElementById("m1").style.top = "-547px";
+													break;
+											}
+											//m2
+											switch (m2) {
+												case 0:
+													document.getElementById("m2").style.top = "0px";
+													break;
+												case 1:
+													document.getElementById("m2").style.top = "-61px";
+													break;
+												case 2:
+													document.getElementById("m2").style.top = "-122px";
+													break;
+												case 3:
+													document.getElementById("m2").style.top = "-182px";
+													break;
+												case 4:
+													document.getElementById("m2").style.top = "-243px";
+													break;
+												case 5:
+													document.getElementById("m2").style.top = "-303px";
+													break;
+												case 6:
+													document.getElementById("m2").style.top = "-363px";
+													break;
+												case 7:
+													document.getElementById("m2").style.top = "-425px";
+													break;
+												case 8:
+													document.getElementById("m2").style.top = "-483px";
+													break;
+												case 9:
+													document.getElementById("m2").style.top = "-547px";
+													break;
+											}
+											//s1
+											switch (s1) {
+												case 0:
+													document.getElementById("s1").style.top = "0px";
+													break;
+												case 1:
+													document.getElementById("s1").style.top = "-61px";
+													break;
+												case 2:
+													document.getElementById("s1").style.top = "-122px";
+													break;
+												case 3:
+													document.getElementById("s1").style.top = "-182px";
+													break;
+												case 4:
+													document.getElementById("s1").style.top = "-243px";
+													break;
+												case 5:
+													document.getElementById("s1").style.top = "-303px";
+													break;
+												case 6:
+													document.getElementById("s1").style.top = "-363px";
+													break;
+												case 7:
+													document.getElementById("s1").style.top = "-425px";
+													break;
+												case 8:
+													document.getElementById("s1").style.top = "-485px";
+													break;
+												case 9:
+													document.getElementById("s1").style.top = "-547px";
+													break;
+											}
+											//s2
+											switch (s2) {
+												case 0:
+													document.getElementById("s2").style.top = "0px";
+													break;
+												case 1:
+													document.getElementById("s2").style.top = "-61px";
+													break;
+												case 2:
+													document.getElementById("s2").style.top = "-122px";
+													break;
+												case 3:
+													document.getElementById("s2").style.top = "-182px";
+													break;
+												case 4:
+													document.getElementById("s2").style.top = "-243px";
+													break;
+												case 5:
+													document.getElementById("s2").style.top = "-303px";
+													break;
+												case 6:
+													document.getElementById("s2").style.top = "-363px";
+													break;
+												case 7:
+													document.getElementById("s2").style.top = "-425px";
+													break;
+												case 8:
+													document.getElementById("s2").style.top = "-485px";
+													break;
+												case 9:
+													document.getElementById("s2").style.top = "-547px";
+													break;
+											}
+										}, 1000);
+
+									}
+								</script>
+
+								<div class="list-time">
+									<div class="time">
+										<ul class="numbers hoursFirst" id="h1" style="top: 0px;"><li class="liItem">0</li><li class="liItem">1</li><li class="liItem">2</li><li class="liItem">3</li><li class="liItem">4</li><li class="liItem">5</li><li class="liItem">6</li><li class="liItem">7</li><li class="liItem">8</li><li class="liItem">9</li></ul><ul class="numbers hoursLast" id="h2" style="top: 0px;"><li>0</li><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li><li>9</li></ul><span class="icon">:</span><ul class="numbers minutesFirst" id="m1" style="top: -260.1px;"><li>0</li><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li><li>9</li></ul><ul class="numbers minutesLast" id="m2" style="top: -260.1px;"><li>0</li><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li><li>9</li></ul><span class="icon">:</span><ul class="numbers secondsFirst" id="s1" style="top: 0px;"><li>0</li><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li><li>9</li></ul><ul class="numbers secondsLast" id="s2" style="top: -312.12px;"><li>0</li><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li><li>9</li></ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="flex-content">
+					<div class="base-wrapper">
+						<div class="travalBox">
+							<div class="travalBox-top">
+								<div class="name">郑*君</div>
+								<div class="card"> 411424**********9212 <img src="./index_img/eye.png" class="eyeIcon">
+								</div>
+							</div>
+							<div class="travalBox-bottom">
+								<!---->
+								<div class="travalBox-left">
+									<div class="top-info"><span>核酸检测结果</span></div>
+									<div class="yin">
+										<div class="hour">24</div>
+										<div class="result">
+											<div class="result-top">小时内</div>
+											<div class="result-bottom"> 阴性 </div>
+										</div>
+									</div>
+								</div>
+								<!---->
+								<!---->
+								<!---->
+								<!---->
+								<div class="travalBox-right">
+									<!---->
+									<div class="common-label">疫苗接种</div>
+									<div>
+										<div class="span-blue">已接种 2 针剂</div>
+									</div>
+								</div>
+								<!---->
+							</div>
+						</div>
+						<div class="message" id="message">
+							<div class="message-left">
+								<div class="label">最近核酸检测</div>
+								<div class="bgsj2">采样时间</div>
+								<div class="desc" id="testdate">
+									<script>
+										var showdate = function() {
+											var nowdate = new Date();
+											var year = nowdate.getFullYear(),
+												month = nowdate.getMonth() + 1,
+												date = nowdate.getDate() - 1,
+												day = nowdate.getDay();
+											return month + "月" + date + "日";
+										}
+										var div = document.getElementById("testdate");
+										div.innerHTML = showdate();
+									</script>
+									<span class="bgsj">10:47</span>
+								</div>
+							</div>
+							<div class="message-right">
+								<div class="label label2">距到期还剩</div>
+								<div class="desc">
+									<span><span class="blue-hour">55</span>小时 </span>
+									<span><span class="blue-hour">36</span>分 </span>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					<!---->
+					<div class="button-group">
+						<button
+							class="van-button van-button--primary van-button--large van-button--plain van-button--round">
+							<div class="van-button__content">
+								<span class="van-button__text">查看行程卡</span>
+							</div>
+						</button>
+					</div>
+					<div class="trave-wrapper">
+						<div data-v-1722de40="" class="bottom-card-wrapper">
+							<div data-v-1722de40="" class="btnsItem">
+								<div data-v-1722de40="" class="item">
+									<img data-v-1722de40="" src="./index_img/hsjcm.png" class="img">
+									<div data-v-1722de40="" class="text"> 核酸检测码 </div>
+								</div>
+							</div>
+							<div data-v-1722de40="" class="btnsItem">
+								<div data-v-1722de40="" class="item">
+									<img data-v-1722de40="" src="./index_img/lybb.png" class="img">
+									<div data-v-1722de40="" class="text"> 来豫报备 </div>
+								</div>
+							</div>
+							<div data-v-1722de40="" class="btnsItem">
+								<div data-v-1722de40="" class="item">
+									<img data-v-1722de40="" src="./index_img/cydcx.png" class="img">
+									<div data-v-1722de40="" class="text"> 采样点查询 </div>
+								</div>
+							</div>
+							<div data-v-1722de40="" class="btnsItem">
+								<div data-v-1722de40="" class="item page-jump-wrapper">
+									<img data-v-1722de40="" src="./index_img/cxfw.png" class="img">
+									<div data-v-1722de40="" class="text"> 出行服务 </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</body>
+</html>
